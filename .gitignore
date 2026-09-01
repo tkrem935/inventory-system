@@ -1,12 +1,21 @@
-# База данных и логи — никогда не грузим в GitHub
+# База и отчёты — не храним в Git
 inventory.db
+report.csv
 *.log
 
-# Переменные окружения — тут могут быть токены, не коммить!
+# Токены и секреты
 .env
 
-# IDE и кэш Python
-.idea/
-.vscode/
+# Кэш Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+
+# Временные файлы ОС
+.DS_Store
+Thumbs.db
